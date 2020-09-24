@@ -1,6 +1,6 @@
 # gazebo_aruco_box
 
-This repository provides a cube for Gazebo. On each side of the cube, an ArUco marker is shown.
+This repository provides a cube for Gazebo. An ArUco marker is attached to each side of the cube.
 
 ![gazebo](doc/gazebo.png)
 
