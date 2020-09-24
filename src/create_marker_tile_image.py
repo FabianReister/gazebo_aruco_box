@@ -11,11 +11,11 @@ class MarkerFactory:
     def create_marker(size, id, margin):
         aruco_dict = aruco.Dictionary_get(aruco.DICT_6X6_250)
 
-        # white
+        # white background
         img = 255 * np.ones((size, size), dtype=np.uint8)
-
         img_marker = aruco.drawMarker(aruco_dict, id, size - 2 * margin)
 
+        # add marker centered
         img[margin:-margin, margin:-margin] = img_marker
 
         return img
