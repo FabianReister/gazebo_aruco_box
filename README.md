@@ -1,12 +1,13 @@
 # gazebo_aruco_box
 
-This repository provides a cube for Gazebo. On each side of the cube, a ArUco marker is shown.
+This repository provides a cube for Gazebo. On each side of the cube, an ArUco marker is shown.
 
 ![gazebo](doc/gazebo.png)
 
 The current parameters are:
 - marker width is 40% of the cube width
 - ArUco marker IDs are 0,1,..,5
+- Cube size is 1x1x1m
 
 ## Installation
 
