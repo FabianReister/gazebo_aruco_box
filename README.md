@@ -21,3 +21,8 @@ Open Gazebo and navigate to the "Insert" tab. There, you will find the "Box with
 
 You can create the texture for the cube yourself. See the script "src/create_marker_tile_image.py" for more details. 
 The Blender model is also added to the repo (aruco_box/aruco_marker.blend). 
+
+## ToDo / new features
+- [ ] add a gazebo world file
+   - [ ] add camera sensor
+- [ ] integrate ArUco marker detection, e.g. https://wiki.ros.org/aruco_detect
