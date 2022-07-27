@@ -38,7 +38,10 @@
         </collision>
         <visual name='aruco_box_mesh'>
           <geometry>
-            <mesh><uri>model://aruco_box/model.dae</uri></mesh>
+            <mesh>
+                <uri>model://aruco_box/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
           </geometry>
         </visual>
         <self_collide>0</self_collide>
