@@ -1,6 +1,6 @@
 <?xml  version="1.0" ?>
 <sdf version="1.5">
- 
+
  <model name='aruco_box'>
       <pose>0 0 0 0 -0 0</pose>
       <link name='link'>
@@ -19,7 +19,7 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>1 1 1</size>
+              <size>0.5 0.5 0.5</size>
             </box>
           </geometry>
           <surface>
@@ -38,13 +38,15 @@
         </collision>
         <visual name='aruco_box_mesh'>
           <geometry>
-            <mesh><uri>model://aruco_box/model.dae</uri></mesh>
+            <mesh>
+                <uri>model://aruco_box/model.dae</uri>
+                <scale>0.25 0.25 0.25</scale>
+            </mesh>
           </geometry>
         </visual>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-    </model> 
-    
+    </model>
     </sdf>
